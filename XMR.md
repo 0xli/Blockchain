@@ -1,0 +1,50 @@
+1. Get a wallet 
+https://www.monero.how/tutorial-how-to-create-a-command-line-monero-wallet
+# LINUX: Download the Linux 64-bit command line client and extract it
+wget https://downloads.getmonero.org/linux64
+tar jxvf linux64
+Use the 'cd' command to naviate to your new folder
+cd monero
+
+# Run the Monero daemon. It will sync with the network and display the message "You are now synchronized with the network. You may now start monero-wallet-cli" when it is completely up to date with the network
+# LINUX/MAC:
+./monerod
+# The job of the Monero daemon is to monitor the network for new transactions. You now need to open a new terminal window and run the Monero command line wallet, which will communicate with the Monero daemon that you've just stared.
+# LINUX/MAC:
+./monero-wallet-cli
+[wallet 44CoSd (out of sync)]: balance
+Currently selected account: [0] Primary account
+Tag: (No tag assigned)
+Balance: 0.000000000000, unlocked balance: 0.000000000000
+[wallet 44CoSd (out of sync)]: address
+0  44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa  Primary address 
+
+2. compile mine software
+
+https://github.com/fireice-uk/xmr-stak
+git clone https://github.com/fireice-uk/xmr-stak.git
+# Ubuntu / Debian
+    sudo apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
+    git clone https://github.com/fireice-uk/xmr-stak.git
+    mkdir xmr-stak/build
+    cd xmr-stak/build
+    #cmake ..
+    cmake -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF ..
+    make install
+
+3. Run mine software
+It will ask you to choose http port, currency and pool ip/port with your wallet address 
+./xmr-stak
+If you’re after starting the miner getting a lot of
+[2018-01-14 16:52:14] : MEMORY ALLOC FAILED: mlock failed
+[2018-01-14 16:52:14] : MEMORY ALLOC FAILED: mlock failed
+[2018-01-14 16:52:14] : MEMORY ALLOC FAILED: mlock failed
+[2018-01-14 16:52:14] : MEMORY ALLOC FAILED: mlock failed
+[2018-01-14 16:52:14] : MEMORY ALLOC FAILED: mlock failed
+Try enabling large pages:
+sudo sysctl -w vm.nr_hugepages=128
+allcom@allcom-MS-7636:~/blockchain/xmr-stak/builds/bin$ ./xmr-stak 
+[2018-08-31 17:24:15] : Your CPU doesn't support hardware AES. Don't expect high hashrates.
+[2018-08-31 17:24:15] : MEMORY ALLOC FAILED: mmap failed
+[2018-08-31 17:24:15] : MEMORY ALLOC FAILED: mmap failed
+-------------------------------------------------------------------
