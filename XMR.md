@@ -48,3 +48,4 @@ allcom@allcom-MS-7636:~/blockchain/xmr-stak/builds/bin$ ./xmr-stak
 [2018-08-31 17:24:15] : MEMORY ALLOC FAILED: mmap failed
 [2018-08-31 17:24:15] : MEMORY ALLOC FAILED: mmap failed
 -------------------------------------------------------------------
+https://monerohash.com/#getting_started
