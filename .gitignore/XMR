@@ -87,5 +87,6 @@ After first run, it creates two files : config.txt, pools.txt
 http://192.168.0.174:8082/h
 
 4.POOL
+pool.minexmr.com:5555
 https://minexmr.com/#getting_started
 https://github.com/turtlecoin/turtlecoin/wiki/Pools
