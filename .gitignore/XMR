@@ -33,6 +33,10 @@ git clone https://github.com/fireice-uk/xmr-stak.git
     make install
 
 3. Run mine software
+* run in Windows 10
+** run with Administrator privillage
+** xmr-stak.exe --noNVIDIA  --noAMD
+** otherwise it will quit right away
 It will ask you to choose http port, currency and pool ip/port with your wallet address 
 ./xmr-stak
 If you’re after starting the miner getting a lot of
