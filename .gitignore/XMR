@@ -47,6 +47,9 @@ git clone https://github.com/fireice-uk/xmr-stak.git
 ** run with Administrator privillage
 ** xmr-stak.exe --noNVIDIA  --noAMD
 ** otherwise it will quit right away
+
+./xmr-stak --noNVIDIA  --noAMD --httpd 8082 --currency monero7 -u 44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa -p "" -r allcomcentos -o pool.minexmr.com:5555
+
 It will ask you to choose http port, currency and pool ip/port with your wallet address 
 ./xmr-stak
 If you’re after starting the miner getting a lot of
@@ -90,3 +93,5 @@ http://192.168.0.174:8082/h
 pool.minexmr.com:5555
 https://minexmr.com/#getting_started
 https://github.com/turtlecoin/turtlecoin/wiki/Pools
+
+
