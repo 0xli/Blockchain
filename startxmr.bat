@@ -1,0 +1,1 @@
+xmr-stak --noNVIDIA --noAMD
