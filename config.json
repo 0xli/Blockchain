@@ -1,0 +1,75 @@
+{
+    "algo": "cryptonight",
+    "api": {
+        "port": 8082,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "av": 0,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": null,
+    "donate-level": 5,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": null,
+    "max-cpu-usage": 75,
+    "pools": [
+        {
+            "url": "xmr-usa.dwarfpool.com:8005",
+            "user": "44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa.winx32win7usa",
+            "pass": "liwei@gfax.cn",
+            "rig-id": "winx32",
+            "nicehash": false,
+            "keepalive": false,
+            "variant": 1
+        },
+        {
+            "url": "xmr-eu.dwarfpool.com:8005",
+            "user": "44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa.winx32win7ue",
+            "pass": "liwei@gfax.cn",
+            "rig-id": "winx32",
+            "nicehash": false,
+            "keepalive": false,
+            "variant": 2
+        },
+        {
+            "url": "pool.minexmr.com:5555",
+            "user": "44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa.winx32win7",
+            "pass": "",
+            "rig-id": "winx32",
+            "nicehash": false,
+            "keepalive": false,
+            "variant": 3
+        },
+        {
+            "url": "monerohash.com:2222",
+            "user": "44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa",
+            "pass": "x",
+            "rig-id": "winx32",
+            "nicehash": false,
+            "keepalive": false,
+            "variant": 4
+        }
+        //        {"pool_address" : "monerohash.com:2222", "wallet_address" : "44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa", "rig_id" : "allcomx", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 3 },
+        // {
+        //     "url": "proxy.fee.xmrig.com:9999",
+        //     "user": "YOUR_WALLET",
+        //     "pass": "x",
+        //     "rig-id": null,
+        //     "nicehash": false,
+        //     "keepalive": false,
+        //     "variant": 1
+        // }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "threads": null,
+    "user-agent": null,
+    "watch": false
+}
