@@ -1,0 +1,3 @@
+http://dwarfpool.com/xmr/address?wallet=44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa
+
+http://minexmr.com/#worker_stats
