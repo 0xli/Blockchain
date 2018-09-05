@@ -15,8 +15,9 @@
 
 "pool_list" :
 [
-	{"pool_address" : "pool.minexmr.com:5555", "wallet_address" : "44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa.home", "rig_id" : "allcomh", "pool_password" : "", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "pool.minexmr.com:5555", "wallet_address" : "44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa.home", "rig_id" : "allcomh", "pool_password" : "", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 3 },
 	{"pool_address" : "monerohash.com:2222", "wallet_address" : "44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa", "rig_id" : "allcomh", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 2},
+	{"pool_address" : "xmr-usa.dwarfpool.com:8050", "wallet_address" : "44CoSdtTMfSYdigv6kMAgvDa7Ceozv4rRBSU9uXYDxYNfnADfxzPet2TznbrxHaA17fahDEjvBSyMPQQrVsr5LwcRYGXxJa.win10", "rig_id" : "allcomh", "pool_password" : "liwei@gfax.cn", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1},
 ],
 
 /*
@@ -46,7 +47,8 @@
  *    cyrptonight_bittube2
  *    cryptonight_haven
  *    cryptonight_heavy
- */
-
 "currency" : "monero7",
+ */
+"currency" : "cryptonight",
+
 
