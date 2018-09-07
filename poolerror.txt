@@ -62,3 +62,65 @@ Network error log:
 | 2018-09-07 16:25:42 | [pool.minexmr.com:7777] CONNECT error: GetAddrInfo: Na |
 [2018-09-07 16:43:41] : Result accepted by the pool.
 [2018-09-07 16:43:53] : New block detected.
+
+| Date                | Error text                                             |
+| 2018-09-05 16:03:21 | [xmr-eu.dwarfpool.com:8005] CALL error: Timeout while  |
+| 2018-09-05 16:04:12 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-05 16:05:04 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-05 17:17:55 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-05 17:29:24 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-05 17:43:59 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-05 17:44:22 | [xmr-usa.dwarfpool.com:8005] Duplicate equal job detec |
+| 2018-09-05 18:11:35 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-05 18:26:50 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-05 19:14:25 | [xmr-eu.dwarfpool.com:8005] CALL error: Timeout while  |
+| 2018-09-05 19:14:46 | [xmr-usa.dwarfpool.com:8005] CONNECT error: 由于连接方 |
+| 2018-09-05 20:29:57 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-05 20:30:05 | [xmr-usa.dwarfpool.com:8005] RECEIVE error: 远程主机强 |
+| 2018-09-05 20:30:47 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-05 20:31:01 | [xmr-usa.dwarfpool.com:8005] CALL error: Timeout while |
+| 2018-09-05 20:31:39 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-05 20:33:42 | [xmr-eu.dwarfpool.com:8005] RECEIVE error: 远程主机强?|
+| 2018-09-05 20:34:03 | [pool.minexmr.com:5555] CONNECT error: 由于连接方在一?|
+| 2018-09-05 21:04:25 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-05 21:04:42 | [pool.minexmr.com:5555] CALL error: Timeout while wait |
+| 2018-09-05 21:25:44 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-05 23:03:39 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-05 23:16:05 | [xmr-eu.dwarfpool.com:8005] RECEIVE error: 远程主机强?|
+| 2018-09-05 23:16:26 | [xmr-usa.dwarfpool.com:8005] CONNECT error: 由于连接方 |
+| 2018-09-05 23:16:26 | [pool.minexmr.com:5555] CONNECT error: 由于连接方在一?|
+| 2018-09-05 23:16:56 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-05 23:17:17 | [xmr-usa.dwarfpool.com:8005] CONNECT error: 由于连接方 |
+| 2018-09-06 00:00:00 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 00:42:16 | [xmr-eu.dwarfpool.com:8005] RECEIVE error: 远程主机强?|
+| 2018-09-06 00:54:31 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 01:13:06 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 01:25:38 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 02:17:28 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 04:49:06 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 06:32:37 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 06:32:46 | [xmr-usa.dwarfpool.com:8005] Duplicate equal job detec |
+| 2018-09-06 08:06:07 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 08:22:30 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 08:41:40 | [xmr-eu.dwarfpool.com:8005] RECEIVE error: 远程主机强?|
+| 2018-09-06 08:41:53 | [pool.minexmr.com:5555] CALL error: Timeout while wait |
+| 2018-09-06 08:42:01 | [xmr-usa.dwarfpool.com:8005] CONNECT error: 由于连接方 |
+| 2018-09-06 08:43:21 | [xmr-eu.dwarfpool.com:8005] RECEIVE error: 远程主机强?|
+| 2018-09-06 08:44:41 | [xmr-eu.dwarfpool.com:8005] CALL error: Timeout while  |
+| 2018-09-06 08:45:02 | [pool.minexmr.com:5555] CONNECT error: 由于连接方在一?|
+| 2018-09-06 08:45:31 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-06 08:47:27 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 08:47:48 | [xmr-usa.dwarfpool.com:8005] CONNECT error: 由于连接方 |
+| 2018-09-06 08:47:48 | [pool.minexmr.com:5555] CONNECT error: 由于连接方在一?|
+| 2018-09-06 08:50:35 | [xmr-eu.dwarfpool.com:8005] RECEIVE error: 远程主机强?|
+| 2018-09-06 08:51:25 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-06 08:52:17 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-06 08:53:08 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-06 08:53:59 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-06 08:54:51 | [xmr-eu.dwarfpool.com:8005] CONNECT error: 由于连接方?|
+| 2018-09-06 08:55:31 | [xmr-eu.dwarfpool.com:8005] CALL error: Timeout while  |
+| 2018-09-06 09:34:56 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 11:09:16 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 12:10:51 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 12:25:12 | [xmr-eu.dwarfpool.com:8005] Duplicate equal job detect |
+| 2018-09-06 12:25:33 | [pool.minexmr.com:5555]
