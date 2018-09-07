@@ -1,0 +1,27 @@
+It should work for most cases
+    sudo yum install centos-release-scl epel-release
+    sudo yum install cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-devel openssl-devel make
+    scl enable devtoolset-4 bash
+    git clone https://github.com/fireice-uk/xmr-stak.git
+    mkdir xmr-stak/build
+    cd xmr-stak/build
+    cmake3 ..
+    make install
+    
+But it may not work if the yum fails in last step or gcc is lower than 5.1.0, and you can make it by following steps:   
+1. build gcc from source
+gcc musg be newer than 5.1
+svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_8_2_0_release/
+cd gcc_8_2_0_release/
+./contrib/download_prerequisites
+cd ..
+mkdir gcc_8_2_0_release_build/
+cd gcc_8_2_0_release_build/
+./gcc_5_1_0_release/configure --disable-multilib --enable-languages=c,c++
+make 
+make install
+gcc --version
+2. build
+cmake3 -DCMAKE_CXX_COMPILER=g++ -DCMAKE_C_COMPILER=gcc -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF -DCMAKE_LINK_STATIC=ON ..
+
+ 
