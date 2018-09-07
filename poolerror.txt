@@ -1,0 +1,64 @@
+CONNECTION REPORT
+Pool address    : xmr-usa.dwarfpool.com:8100
+Connected since : 2018-09-07 14:53:07
+Pool ping time  : 324 ms
+
+Network error log:
+| Date                | Error text                                             |
+| 2018-09-07 13:02:57 | [xmr-usa.dwarfpool.com:8100] RECEIVE error: Connection |
+| 2018-09-07 13:15:02 | [xmr-usa.dwarfpool.com:8100] Duplicate equal job detec |
+| 2018-09-07 13:41:24 | [xmr-usa.dwarfpool.com:8100] RECEIVE error: Connection |
+| 2018-09-07 13:41:30 | [xmr-eu.dwarfpool.com:8100] Duplicate equal job detect |
+| 2018-09-07 14:17:10 | [xmr-usa.dwarfpool.com:8100] RECEIVE error: Connection |
+| 2018-09-07 14:23:08 | [xmr-usa.dwarfpool.com:8100] RECEIVE error: Connection |
+| 2018-09-07 14:52:36 | [xmr-usa.dwarfpool.com:8100] Duplicate equal job detec |
+[2018-09-07 16:16:52] : SOCKET ERROR - [xmr-usa.dwarfpool.com:8100] RECEIVE error: Connection reset by peer
+[2018-09-07 16:16:52] : Fast-connecting to pool.minexmr.com:7777 pool ...
+[2018-09-07 16:16:52] : Fast-connecting to monerohash.com:2222 pool ...
+[2018-09-07 16:16:57] : Fast-connecting to xmr-eu.dwarfpool.com:8100 pool ...
+[2018-09-07 16:16:57] : Pool pool.minexmr.com:7777 connected. Logging in...
+[2018-09-07 16:16:57] : Difficulty changed. Now: 35000.
+[2018-09-07 16:16:57] : Pool switched.
+[2018-09-07 16:16:57] : Pool xmr-eu.dwarfpool.com:8100 connected. Logging in...
+[2018-09-07 16:16:57] : New block detected.
+[2018-09-07 16:16:58] : Difficulty changed. Now: 100001.
+[2018-09-07 16:16:58] : Pool switched.
+[2018-09-07 16:17:00] : Pool monerohash.com:2222 connected. Logging in...
+[2018-09-07 16:17:10] : SOCKET ERROR - [monerohash.com:2222] CALL error: Timeout while waiting for a reply
+[2018-09-07 16:17:22] : Background-connect to xmr-usa.dwarfpool.com:8100 pool ...
+[2018-09-07 16:17:22] : Pool xmr-usa.dwarfpool.com:8100 connected. Logging in...
+[2018-09-07 16:17:25] : Pool switched.
+[2018-09-07 16:17:25] : New block detected.
+
+
+RESULT REPORT
+Difficulty       : 37500
+Good results     : 20 / 21 (95.2 %)
+Avg result time  : 314.0 sec
+Pool-side hashes : 110000
+
+Top 10 best results found:
+|  0 |          3663312 |  1 |           802084 |
+|  2 |           404137 |  3 |           198779 |
+|  4 |           155398 |  5 |           150951 |
+|  6 |           130362 |  7 |            98311 |
+|  8 |            95571 |  9 |            86270 |
+
+Error details:
+| Count | Error text                       | Last seen           |
+|     1 | [NETWORK ERROR]                  | 2018-09-07 16:22:44 |
+CONNECTION REPORT
+Pool address    : pool.minexmr.com:7777
+Connected since : 2018-09-07 16:26:13
+Pool ping time  : 278 ms
+
+Network error log:
+| Date                | Error text                                             |
+| 2018-09-07 16:22:44 | [pool.minexmr.com:7777] RECEIVE error: Connection rese |
+| 2018-09-07 16:23:15 | [pool.minexmr.com:7777] CONNECT error: GetAddrInfo: Na |
+| 2018-09-07 16:23:50 | [pool.minexmr.com:7777] CONNECT error: GetAddrInfo: Na |
+| 2018-09-07 16:24:27 | [pool.minexmr.com:7777] CONNECT error: GetAddrInfo: Na |
+| 2018-09-07 16:25:10 | [pool.minexmr.com:7777] CONNECT error: GetAddrInfo: Na |
+| 2018-09-07 16:25:42 | [pool.minexmr.com:7777] CONNECT error: GetAddrInfo: Na |
+[2018-09-07 16:43:41] : Result accepted by the pool.
+[2018-09-07 16:43:53] : New block detected.
