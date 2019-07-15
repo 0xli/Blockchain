@@ -7,3 +7,6 @@ miner:
 http://www.qskg.top/
 mac:
 serominer -P stratum1+tcp://u2hBG7dm11bUZ2PEdBkGPDMNnwDTEso7TvdzL4AS4XnW93aXE2VfLmTc5TbrgDyDHr57fv9ixR1VqbEn7KbyR2y58urxvBwU3T9WoSisbAgMZiShJRr8yPZppzWc26kVWmj.mbpro@121.201.75.200:8008 -G
+
+serominer -P stratum1+tcp://u2hBG7dm11bUZ2PEdBkGPDMNnwDTEso7TvdzL4AS4XnW93aXE2VfLmTc5TbrgDyDHr57fv9ixR1VqbEn7KbyR2y58urxvBwU3T9WoSisbAgMZiShJRr8yPZppzWc26kVWmj.mbpro@sero.f2pool.com:4200 -G
+
