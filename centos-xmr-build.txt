@@ -18,6 +18,7 @@ cd ..
 mkdir gcc_8_2_0_release_build/
 cd gcc_8_2_0_release_build/
 ./gcc_8_2_0_release/configure --disable-multilib --enable-languages=c,c++
+sudo yum install flex -y
 make 
 make install
 gcc --version
